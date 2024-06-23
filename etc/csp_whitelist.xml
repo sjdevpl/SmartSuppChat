@@ -2,13 +2,25 @@
 <csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp:etc/csp_whitelist.xsd">
     <policies>
         <policy id="script-src">
-            <values>                
+            <values>
                   <value id="smartsuppchat-loader" type="host">https://www.smartsuppchat.com</value>
             </values>
         </policy>
         <policy id="connect-src">
             <values>
                 <value id="smartsuppchat-widget" type="host">https://bootstrap.smartsuppchat.com</value>
+                <value id="smartsuppchat-widgetv3" type="host">https://widget-v3.smartsuppcdn.com</value>
+                <value id="smartsuppchat-translations" type="host">https://translations.smartsuppcdn.com</value>
+                <value id="smartsuppchat-websocekt" type="host">wss://websocket-visitors.smartsupp.com</value>
+        </policy>
+        <policy id="script-src-elem">
+            <values>
+                <value id="smartsuppchat-widgetv3" type="host">https://widget-v3.smartsuppcdn.com</value>
+            </values>
+        </policy>
+        <policy id="style-src-elem">
+            <values>
+                <value id="smartsuppchat-widgetv3" type="host">https://widget-v3.smartsuppcdn.com</value>
             </values>
         </policy>
     </policies>
