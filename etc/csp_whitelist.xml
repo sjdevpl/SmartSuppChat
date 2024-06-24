@@ -3,7 +3,7 @@
     <policies>
         <policy id="script-src">
             <values>
-                  <value id="smartsuppchat-loader" type="host">https://www.smartsuppchat.com</value>
+                <value id="smartsuppchat-loader" type="host">https://www.smartsuppchat.com</value>
             </values>
         </policy>
         <policy id="connect-src">
@@ -12,6 +12,7 @@
                 <value id="smartsuppchat-widgetv3" type="host">https://widget-v3.smartsuppcdn.com</value>
                 <value id="smartsuppchat-translations" type="host">https://translations.smartsuppcdn.com</value>
                 <value id="smartsuppchat-websocekt" type="host">wss://websocket-visitors.smartsupp.com</value>
+            </values>
         </policy>
         <policy id="script-src-elem">
             <values>
